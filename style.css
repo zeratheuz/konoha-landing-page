@@ -61,3 +61,26 @@ button {
     justify-content: center;
     align-items: center;   
 }
+
+.hokages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: green;
+}
+
+.hokages-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.hokages img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 8px solid purple;
+    border-radius: 16px;
+}
