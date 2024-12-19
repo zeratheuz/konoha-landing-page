@@ -1,9 +1,13 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 0;
-    margin: 0;
     font-family: Roboto, sans-serif;
 }
 
@@ -15,6 +19,7 @@ nav {
     justify-content: space-around;
     box-sizing: border-box;
     gap: 100px;
+    padding: 24px;
 }
 
 ul {
@@ -68,19 +73,36 @@ button {
     align-items: center;
     color: white;
     background-color: green;
+    padding: 24px 200px 100px;
+    gap: 32px;
+}
+
+.hokages h2 {
+    font-size: 36px;
+    font-weight: 900;
 }
 
 .hokages-info {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: center;
-    gap: 32px;
+    gap: 40px;
+}
+
+.hokage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 200px;
+    text-align: center;
+    gap: 8px;
 }
 
 .hokages img {
     width: 200px;
     height: 200px;
     object-fit: cover;
-    border: 8px solid purple;
+    border: 6px solid brown;
     border-radius: 16px;
 }
