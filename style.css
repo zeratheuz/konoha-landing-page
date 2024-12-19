@@ -17,18 +17,14 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    box-sizing: border-box;
     gap: 100px;
     padding: 24px;
 }
 
 ul {
     display: flex;
-    padding: 0;
-    margin: 0;
     list-style-type: none;
     gap: 24px;
-    font-weight: 100;
     flex-shrink: 0;
     font-size: 18px;
 }
@@ -42,23 +38,26 @@ header {
     color: white;
     background-color: brown;
     display: flex;
-    padding: 100px 200px 150px;
     gap: 64px;
     align-items: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 200px 150px;
 }
 
 header h1 {
     font-size: 48px;
-    margin: 0;
 }
 
 button {
     background-color: green;
-    padding: 10px 20px;
+    padding: 10px;
     border-radius: 10px;
     font-weight: bold;
     font-size: larger;
     border-style: none;
+    width: 180px;
 }
 
 .logo {
@@ -66,6 +65,7 @@ button {
     justify-content: center;
     align-items: center;   
 }
+
 
 .hokages {
     display: flex;
@@ -75,6 +75,13 @@ button {
     background-color: green;
     padding: 24px 200px 100px;
     gap: 32px;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 1000px;
 }
 
 .hokages h2 {
@@ -105,4 +112,19 @@ button {
     object-fit: cover;
     border: 6px solid brown;
     border-radius: 16px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+    color: white;
+    padding: 150px 200px 150px;
+    font-size: 36px;
+    gap: 8px;
+}
+
+.quote h3 {
+    font-size: 24px;
+    align-self: flex-end;
 }
