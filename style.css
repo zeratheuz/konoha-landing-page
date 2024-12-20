@@ -59,7 +59,7 @@ button {
 
 footer {
     text-align: center;
-    padding: 50px;
+    padding: 50px 0px;
     font-weight: bold;
 }
 
@@ -79,22 +79,24 @@ footer {
 .hokages {
     display: flex;
     flex-direction: column;
+    text-align: center;
     align-items: center; 
     background-color: green;
-    padding: 24px 200px 100px;
-    gap: 32px;
+    padding: 50px 200px 100px;
+    gap: 40px;
 }
 
 .hokages h2 {
     font-size: 36px;
     font-weight: 900;
+    width: 1000px;
 }
 
 .hokages-info {
     display: flex;
     align-items: baseline;
     justify-content: center;
-    gap: 40px;
+    gap: 48px;
 }
 
 .hokage {
@@ -104,7 +106,7 @@ footer {
     align-items: center;
     flex-basis: 200px;
     text-align: center;
-    gap: 8px;
+    gap: 16px;
 }
 
 .hokages img {
@@ -116,15 +118,17 @@ footer {
 }
 
 .quote {
-    padding: 150px 200px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px; 
     font-size: 36px;
-    flex: 1 0 auto;
 }
 
 .quote div {
     display: flex;
     flex-direction: column;
-    width: 1000px;
+    width: 900px;
 }
 
 .quote h3 {
@@ -144,7 +148,6 @@ footer {
 .cta {
     display: flex;
     gap: 180px;
-    flex-shrink: 0;
     justify-content: center;
     background-color: brown;
     padding: 50px 0px;
